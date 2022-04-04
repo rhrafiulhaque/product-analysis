@@ -15,7 +15,7 @@ const HomeReview = () => {
             </div>
             <div className=' mx-auto text-center'>
                 <Link to={'/review'}>
-            <button className=' bg-sky-700 p-4 text-center rounded-md text-white'>Show More</button>
+            <button className=' bg-sky-700 p-4 text-center rounded-md text-white hover:bg-sky-600 duration-700'>Show More</button>
             </Link>
             </div>
         </div>
