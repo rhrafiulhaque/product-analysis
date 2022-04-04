@@ -1,5 +1,6 @@
 import React from 'react';
 import useReview from '../../Hooks/useReview';
+import ReviewShow from '../ReviewShow/ReviewShow';
 
 const Review = () => {
     const  [reviews,setReviews] =useReview();
@@ -7,7 +8,7 @@ const Review = () => {
         <div>
             <h1>Customer Review: {reviews.length} </h1>
             {
-                //reviews.map(review=>)
+                reviews.map(review=><ReviewShow key={review.id} review ={review}></ReviewShow>)
             }
 
         </div>
