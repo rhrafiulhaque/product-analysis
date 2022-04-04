@@ -4,7 +4,6 @@ import useChart from '../../Hooks/useChart';
 
 const MyLineChart = () => {
     const [chartData,setChartData] = useChart();
-    console.log(chartData);
     return (        
         <div>
             <div className='mx-20'>
